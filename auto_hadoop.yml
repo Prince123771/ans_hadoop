@@ -8,6 +8,7 @@
     - https
   vars_prompt:
    name: dir_name
+   private: no
    prompt: "Enter directory  name:"
   tasks:
   - name: installing openjdk & hadoop
